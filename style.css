@@ -1,0 +1,34 @@
+/*
+.grid-container {
+     display: grid;
+    grid-gap: 1em;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+:root {
+    --grid-cols: 16;
+    --grid-rows: 16;
+}
+*/
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 90px;
+
+    /*OUTLINE WORDS HERE*/
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+
+.MainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
